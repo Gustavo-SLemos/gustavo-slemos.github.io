@@ -278,7 +278,9 @@ cite {
 #imgfaixa4 {
     display: grid;
     grid-template-columns: auto auto auto;
+    
 }
+
 
 .subtitulofaixa4 {
     font-weight: 700;
