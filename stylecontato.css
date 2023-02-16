@@ -1,0 +1,463 @@
+* {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+header {
+    background: rgba(46, 148, 138, 1);
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    height: 117px;
+    color: rgba(253, 253, 253, 1);
+    
+}
+
+.container1 {
+    
+    display: flex;
+    justify-content: space-around;    
+}
+
+#logocabecalho {
+    margin-left: 82px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+ul {
+    
+    margin-left: 1028px;
+    margin-top: -50px;
+    
+}
+li{ 
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22.98px;
+    list-style: none;
+    color: white;
+    display: inline;
+    margin-right: 42px;
+    cursor: pointer;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+
+#faixa2 {
+    padding-left: 136px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+h3 {
+   color: rgba(255, 64, 129, 1);
+   font-size: 40px;
+   margin-top: 105px;
+   margin-bottom: 44px;
+   
+}
+
+input {
+    margin-bottom: 15px;
+    width: 60%;
+    height: 25px;
+    border-radius: 7px;
+    padding-left: 10px;
+    border: solid 1px;
+    font-size: 16px;
+    
+}
+
+textarea {
+    margin-bottom: 15px;
+    border-radius: 7px;
+    padding-left: 10px;
+    padding-top: 10px;
+    width: 60%;
+    border: solid 1px;
+    font-size: 16px;
+}
+
+#imgcorpo {
+    margin-right: -300px;
+    margin-top: 82px;
+    margin-bottom: 99px;
+}
+
+
+.buttoncorp {
+    margin-bottom: 97px;
+    background-color:   rgba(255, 64, 129, 1);
+    color: rgba(255, 255, 255, 1);
+    width: 20%;
+    border-radius: 50px;
+    border: none;
+    height: 32px;
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+
+
+
+footer {
+    background-color: rgba(65, 148, 136, 1);
+    
+    padding-top: 50px;
+    padding-bottom: 42px;
+    display: grid;
+    
+   
+}
+
+#imgrodape {
+    width: 20%;
+    margin-left: 120px;
+    cursor: pointer;
+}
+
+#listafooter {
+    margin-top: -100px;
+    
+}
+
+.footer {
+    width: 10%;
+    margin-left: -400px;
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 10;
+}
+
+.buttonfooter1 {
+    
+    background-color: rgba(65, 148, 136, 1);
+    color: white;
+    border-radius: 62px;
+    box-sizing: border-box;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    border: 2px solid white ;
+    font-weight: 400;
+    font-size: 20px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    width: 21%;
+    margin-left: 1000px;
+    margin-top: -100px;
+    display: block;
+}
+
+.buttonfooter2 {
+    
+    background-color: rgba(65, 148, 136, 1);
+    color: white;
+    border-radius: 62px;
+    box-sizing: border-box;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    border: 2px solid white ;
+    font-weight: 400;
+    font-size: 20px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    width: 21%;
+    margin-left: 1000px;
+    
+    display: block;
+}
+
+
+
+
+@media (max-width:430px) {
+    
+    header {
+        max-width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    #logocabecalho {
+        margin-left: 10px;
+        margin-top: 0px;
+    }
+    
+    ul {
+        
+        margin-left: 25px;
+        margin-top: 0px;
+        
+    }
+    li{ 
+        font-weight: 10px;
+        font-size: 12px;
+        margin-right: 42px;
+        
+    }
+
+
+
+
+
+    #faixa2 {
+        padding-left: 5px;
+        margin-bottom: 20px;
+        margin-top: 15px;
+        
+    }
+    
+    h3 {
+       font-size: 40px;
+       margin-top: 25px;
+       margin-bottom: 25px;
+       
+    }
+    
+    input {
+        margin-bottom: 10px;
+        width: 60%;
+        height: 25px;
+        padding-left: 10px;
+        
+    }
+    
+    textarea {
+        margin-bottom: 10px;
+        padding-left: 10px;
+        padding-top: 10px;
+        width: 60%;
+        height: 80px;
+    }
+    
+    #imgcorpo {
+        margin-left: -85px;
+        margin-top: 82px;
+        width: 190%;
+    }
+    
+    
+    .buttoncorp {
+        margin-bottom: 20px;
+        width: 40%;
+        height: 32px;
+        font-size: 16px;
+        
+    }
+
+
+
+
+
+
+    footer {
+        padding-top: 10px;
+        padding-bottom: 0px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #imgrodape {
+        width: 40%;
+        margin-left: 115px;
+    }
+    
+    #listafooter {
+        margin-top: 30px;
+    }
+    
+    .footer {
+        width: 10%;
+        margin-left: 50px;
+        display: block;
+        margin-bottom: 0px;
+        font-weight: 10;
+    }
+    
+    .buttonfooter1 {
+        
+        border-radius: 62px;
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 20px;
+        font-weight: 400;
+        font-size: 10px;
+        margin-bottom: 10px;
+        width: 41%;
+        margin-left: 140px;
+        margin-top: -80px;
+        display: block;
+    }
+    
+    .buttonfooter2 {
+        
+        border-radius: 62px;
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 20px;
+        font-weight: 400;
+        font-size: 10px;
+        margin-bottom: 10px;
+        width: 41%;
+        margin-left: 140px;
+        display: block;
+    }
+
+
+}
+
+
+
+@media (min-width:431px) and (max-width:840px) {
+        
+    header {
+        max-width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    #logocabecalho {
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+    
+    ul {
+        
+        margin-left: 25px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        
+    }
+    li{ 
+        font-weight: 10px;
+        font-size: 20px;
+        margin-right: 42px;
+        
+    }
+
+
+
+
+
+    #faixa2 {
+        padding-left: 170px;
+        margin-bottom: -70px;
+        margin-top: 60px;
+        
+    }
+    
+    h3 {
+       font-size: 40px;
+       margin-top: 0px;
+       margin-bottom: 25px;
+       
+    }
+    
+    input {
+        margin-bottom: 10px;
+        width: 100%;
+        height: 25px;
+        padding-left: 10px;
+        
+    }
+    
+    textarea {
+        margin-bottom: 15px;
+        padding-left: 10px;
+        padding-top: 10px;
+        width: 100%;
+        height: 100px;
+    }
+    
+    #imgcorpo {
+        margin-left: -340px;
+        margin-top: 325px;
+        width: 185%;
+    }
+    
+    
+    .buttoncorp {
+        margin-bottom: 20px;
+        width: 30%;
+        height: 42px;
+        font-size: 16px;
+        
+    }
+
+
+
+
+
+
+    footer {
+        padding-top: 10px;
+        padding-bottom: 0px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #imgrodape {
+        width: 40%;
+        margin-left: 115px;
+    }
+    
+    #listafooter {
+        margin-top: 30px;
+    }
+    
+    .footer {
+        width: 10%;
+        margin-left: 0px;
+        display: block;
+        margin-bottom: 5px;
+        font-weight: 10;
+    }
+    
+    .buttonfooter1 {
+        
+        border-radius: 62px;
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 20px;
+        font-weight: 400;
+        font-size: 20px;
+        margin-bottom: 10px;
+        width: 51%;
+        margin-left: 320px;
+        margin-top: -105px;
+        display: block;
+    }
+    
+    .buttonfooter2 {
+        
+        border-radius: 62px;
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 20px;
+        font-weight: 400;
+        font-size: 20px;
+        margin-bottom: 10px;
+        width: 51%;
+        margin-left: 320px;
+        display: block;
+    }
+
+
+
+}
